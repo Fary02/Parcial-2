@@ -11,7 +11,7 @@ de introducir correctamente las credenciales debe mostrar un mensaje de bienveni
 
 """
 
-# Mensjae de bienvenida al usuario;
+# Mensaje de bienvenida al usuario;
 
 print("---- Bienvenido a Banco Estado ----");  
 
