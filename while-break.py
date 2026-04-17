@@ -2,7 +2,6 @@
 
 # break (para cerrar)
 
-
 intento = 3; 
 
 while intento > 0:
@@ -11,21 +10,20 @@ while intento > 0:
   
   if password == "1234":
     
-    print("¡Bienvenido!");  
+    print("¡Bienvenido!"); 
     
-  break
-
-else:
+    break
+    
+  else:
   
-  intento  -= 1; 
+    intento  -= 1; 
   
   print(f"Intento fallido. Te falta, {intento}"); 
   
   if intento == 0:
     
-    print("Acceso denegado"); 
-     
-    
+    print("Acceso denegado");  
+  
     #Ejercicio Lunes:
     
     """
