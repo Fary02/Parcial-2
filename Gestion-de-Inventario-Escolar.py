@@ -44,7 +44,7 @@ def resumen_cliente_():
   return "Estimado:", nombre, "con", edad,"años", venta_pincel();  
 
 
-# Creacion de coodicion para validar seleccion;
+# Creacion de condicion para validar seleccion;
 
 if seleccion_de_color in colores or seleccion_cantidad in stock:
 
