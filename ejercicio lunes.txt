@@ -1,0 +1,27 @@
+Acaban de obtener su primer empleo en el retail Falabella
+
+y le solicitan realizar un programa en Python que entregue los descuentos a los clientes
+
+iniciamos solicitando a los clientes el numero de rut
+
+el cual debe validar los 8 dígitos de el mismo
+
+en una casilla posterior validar el código de verificación
+
+posteriormente solicitar el nombre de el cliente
+
+el monto de la compra, para saber si/no obtiene el descuento
+
+toda compra menor a 10.000 no obtiene descuento
+
+toda compra mayor a 10.001 hasta 50.000 obtiene un 10% de descuento
+
+toda compra mayor a 50.000 obtiene un 20% de descuento
+
+que debería calcular el programa
+
+monto de descuento
+
+total a pagar
+
+mostrar en pantalla tipo boleta el numero rut del usuario, nombre, monto de la compra y valor final
