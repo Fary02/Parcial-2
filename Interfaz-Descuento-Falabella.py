@@ -66,7 +66,7 @@ try:
 
       # Definimos las condiciones para aplicar el descuento;
 
-      if montoCompra <= 100000:
+      if montoCompra <= 10000:
 
         # Mensaje de aviso de no aplicacion de descuento;
 
@@ -78,7 +78,7 @@ try:
       
       # Condicion para aplicar el descuento del 10%;
       
-      if montoCompra > 10001 and montoCompra <= 500000:
+      if montoCompra > 10001 and montoCompra <= 50000:
 
         # Mensaje de aviso de aplicacion del 10%;
 
