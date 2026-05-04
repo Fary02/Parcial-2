@@ -1,0 +1,67 @@
+Ejercicio 1
+
+Desarrolle un programa en python que permita calcular el valor final del bicicletero y de el candado
+
+para el centro civico que ofrece descuentos para el guardado de su moto mensual
+
+segun sus dias de uso 
+
+valor base
+
+moto desde 15000 mensual, candado 9000
+
+realizar una tabla que incluya 3 columnas:
+
+
+dias de uso, cantidad de dias 
+
+igual o mayor a 20 a los no estudiantes descuento de 8%
+
+
+para estudiantes, si ocupa 20 dias mas 20 >= si 15%
+
+
+
+descuento, 25%
+
+
+ademas el candado tiene una regla adicional, los estudiantes obtiene un 12% adicional por pago con tarjeta de credito
+
+si ademas la cant de dias es menor a 15 solo obtendra un 5% de escuento
+
+si la cant de dias es menor a 10 el descuento es de 0%
+
+
+Ejercicio 2
+
+Desarrolle en python un programa
+
+que permita ingresar 2 numeros enteros
+
+que indique un rango de numeros
+
+el 1 debe ser menor al 2
+
+luego el programa debe generar un programa al azar
+
+entre el rango de los numeros
+
+para hacer esto sigue lo siguiente:
+
+import from random (randint)
+
+numero = randint (n1, n2)
+
+la linea 1 le permite cargar la function randint
+
+la linea 2 usa la function randint() que permite generar un numero aleatorio entre los 2 valores
+
+a modo de ejemplo randint(1, 10). genero un numero aleatorio entre ambos numeros
+
+un generador de numero aleatorio debe ajustar el numero para que el valor final sea adivinado
+
+para el usuario luego de 3 intentos
+
+nota: si el numero ajustado llega a quedar fuera del rango, entonces el numero final debe
+
+dividirse por el limite inferior
